@@ -160,7 +160,7 @@ $ ${HADOOP_HOME}/sbin/start-yarn.sh
 
 You can use `jps` command to check that the services are working
 ~~~~
-$ /usr/local/Cellar/hadoop/3.1.0/libexec/sbin » jps                          harshal@Harshals-MBP
+$ jps                          
 59616 ResourceManager
 92484 DataNode
 92388 NameNode
