@@ -171,7 +171,7 @@ $ /usr/local/Cellar/hadoop/3.1.0/libexec/sbin » jps                          ha
 
 ### Create directory in HDFS for MapReduce
 ~~~~
-$ ${HDOOP_HOME}/bin/hdfs dfs -mkdir -p /user/harshal/test_dir
+$ ${HADOOP_HOME}/bin/hdfs dfs -mkdir -p /user/harshal/test_dir
 ~~~~
 
 Now that we have created the directory, let us briefly learn how to transfer data between local and hdfs.
